@@ -28,10 +28,12 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "api-4-7ff4.onrender.com",
     "localhost",
-    "127.0.0.1",
+    "*",
+    
 ]
 CSRF_TRUSTED_ORIGINS = [
     "https://api-4-7ff4.onrender.com",
+    "*",
 ]
 # Application definition
 
