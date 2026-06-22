@@ -28,7 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://api-4-7ff4.onrender.com",
+    "https://taskmanager-api-4-7ff4.onrender.com",
 ]
 # Application definition
 
